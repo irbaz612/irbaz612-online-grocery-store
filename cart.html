@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <style>
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+main {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cart {
+    margin-top: 20px;
+}
+
+.cart h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cart ul {
+    list-style: none;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.cart-item img {
+    width: 350px;
+    height: 250px;
+    margin-right: 10px;
+}
+.cart-item1 {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.cart-item1 img {
+    width: 350px;
+    height: 250px;
+    margin-right: 10px;
+}
+.cart-item2 {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.cart-item2 img {
+    width: 350px;
+    height: 250px;
+    margin-right: 10px;
+}
+.cart-item3 {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.cart-item3 img {
+    width: 350px;
+    height: 250px;
+    margin-right: 10px;
+}
+
+
+.item-details {
+    flex-grow: 1;
+}
+
+footer {
+    text-align: center;
+    padding: 20px ;
+    background-color: #fff;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+</style>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Grocery Store Cart</title>
+</head>
+<body>
+    <header>
+        <h1>Your Grocery Cart</h1>
+    </header>
+
+    <main>
+        <section class="cart">
+            <ul>
+                <li class="cart-item">
+                    <img src="Grocery.jpg" alt="groceries">
+                    <div class="item-details">
+                        <h3>Product 1</h3>
+                        <p>Price: $5.99</p>
+                        <p>Quantity: 2</p>
+                    </div>
+                </li>
+                
+            </ul>
+            <ul>
+                <li class="cart-item1">
+                    <img src="bread.jpg" alt="bread">
+                    <div class="item-details1">
+                        <h3>Product 2</h3>
+                        <p>Price: $2.99</p>
+                        <p>Quantity: 2</p>
+                    </div>
+                </li>
+                
+            </ul>
+            <ul>
+                <li class="cart-item2">
+                    <img src="drinks.jpg" alt="drinks">
+                    <div class="item-details2">
+                        <h3>Product 3</h3>
+                        <p>Price: $4.49</p>
+                        <p>Quantity: 2</p>
+                    </div>
+                </li>
+                
+            </ul>
+            <ul>
+                <li class="cart-item3">
+                    <img src="vegs.jpg" alt="vegs">
+                    <div class="item-details3">
+                        <h3>Product 4</h3>
+                        <p>Price: $7.99</p>
+                        <p>Quantity: 2</p>
+                    </div>
+                </li>
+                
+            </ul>
+
+
+        </section>
+    </main>
+
+    <footer>
+        <p>Total: $14.67</p>
+        <button>Checkout</button>
+    </footer>
+</body>
+</html>
